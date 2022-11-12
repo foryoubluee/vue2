@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="618" height="440" viewBox="0 0 618 440">
+  <g id="img_survey" transform="translate(-411 -1082)">
+    <g id="長方形_1935" data-name="長方形 1935" transform="translate(411 1082)" fill="#f5f6f7" stroke="#235aac" stroke-linecap="round" stroke-width="1">
+      <rect width="618" height="440" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="617" height="439" rx="1.5" fill="none"/>
+    </g>
+    <g id="グラフ" transform="translate(-65 -10)">
+      <text id="_0" data-name="0" transform="translate(800 1457)" fill="#235aac" font-size="11" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">0</tspan></text>
+      <text id="_20" data-name="20" transform="translate(876 1457)" fill="#235aac" font-size="11" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">20</tspan></text>
+      <text id="_40" data-name="40" transform="translate(956 1457)" fill="#235aac" font-size="11" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">40</tspan></text>
+      <text id="_10" data-name="10" transform="translate(840 1457)" fill="#235aac" font-size="11" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">10</tspan></text>
+      <text id="_30" data-name="30" transform="translate(916 1457)" fill="#235aac" font-size="11" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">30</tspan></text>
+      <text id="_50" data-name="50" transform="translate(996 1457)" fill="#235aac" font-size="11" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">50</tspan></text>
+      <line id="線_347" data-name="線 347" y2="255" transform="translate(843 1186.5)" fill="none" stroke="#d6d6d6" stroke-width="1"/>
+      <line id="線_350" data-name="線 350" y2="255" transform="translate(923 1186.5)" fill="none" stroke="#d6d6d6" stroke-width="1"/>
+      <line id="線_352" data-name="線 352" y2="255" transform="translate(1003 1186.5)" fill="none" stroke="#d6d6d6" stroke-width="1"/>
+      <line id="線_348" data-name="線 348" y2="255" transform="translate(883 1186.5)" fill="none" stroke="#d6d6d6" stroke-width="1"/>
+      <line id="線_349" data-name="線 349" y2="255" transform="translate(963 1186.5)" fill="none" stroke="#d6d6d6" stroke-width="1"/>
+      <rect id="長方形_1939" data-name="長方形 1939" width="127" height="24" transform="translate(803 1347)" fill="#235aac"/>
+      <rect id="長方形_1941" data-name="長方形 1941" width="120" height="24" transform="translate(803 1397)" fill="#235aac"/>
+      <rect id="長方形_1940" data-name="長方形 1940" width="136" height="24" transform="translate(803 1297)" fill="#235aac"/>
+      <rect id="長方形_1938" data-name="長方形 1938" width="183" height="24" transform="translate(803 1247)" fill="#235aac"/>
+      <rect id="長方形_1937" data-name="長方形 1937" width="208" height="24" transform="translate(803 1197)" fill="#235aac"/>
+      <line id="線_345" data-name="線 345" y2="255" transform="translate(803 1186.5)" fill="none" stroke="#002257" stroke-width="1"/>
+      <line id="線_346" data-name="線 346" x1="226.5" transform="translate(803 1441.5)" fill="none" stroke="#002257" stroke-width="1"/>
+    </g>
+    <text id="金銭的に余裕がない" transform="translate(548 1402)" fill="#235aac" font-size="13" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">金銭的</tspan><tspan y="0">に</tspan><tspan y="0">余裕</tspan><tspan y="0">がない</tspan></text>
+    <text id="_位" data-name="５位" transform="translate(480 1404)" fill="#235aac" font-size="24" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">５</tspan><tspan y="0" font-size="16">位</tspan></text>
+    <text id="予算がわからない" transform="translate(548 1352)" fill="#235aac" font-size="13" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">予算</tspan><tspan y="0">がわからない</tspan></text>
+    <text id="デザインがわからない" transform="translate(548 1302)" fill="#235aac" font-size="13" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">デザインがわからない</tspan></text>
+    <text id="_位-2" data-name="３位" transform="translate(480 1304)" fill="#235aac" font-size="24" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">３</tspan><tspan y="0" font-size="16">位</tspan></text>
+    <text id="サイズがわからない" transform="translate(548 1252)" fill="#235aac" font-size="13" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">サイズがわからない</tspan></text>
+    <text id="_位-3" data-name="４位" transform="translate(480 1354)" fill="#235aac" font-size="24" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">４</tspan><tspan y="0" font-size="16">位</tspan></text>
+    <text id="選ぶ基準がわからない" transform="translate(548 1202)" fill="#235aac" font-size="13" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">選</tspan><tspan y="0">ぶ</tspan><tspan y="0">基準</tspan><tspan y="0">がわからない</tspan></text>
+    <text id="_位-4" data-name="１位" transform="translate(480 1204)" fill="#235aac" font-size="24" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">１</tspan><tspan y="0" font-size="16">位</tspan></text>
+    <text id="_位-5" data-name="２位" transform="translate(480 1254)" fill="#235aac" font-size="24" font-family="NotoSansCJKjp-Medium, Noto Sans CJK JP" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">２</tspan><tspan y="0" font-size="16">位</tspan></text>
+    <text id="調査対象_エンゲージリングを購入した男性_210名_マイナビ調べ" data-name="調査対象：エンゲージリングを購入した男性（210名）/ マイナビ調べ" transform="translate(720 1493)" fill="#235aac" font-size="13" font-family="NotoSansCJKjp-Light, Noto Sans CJK JP" font-weight="300" letter-spacing="0.05em"><tspan x="-213" y="0">調査対象：</tspan><tspan y="0">エンゲージリングを</tspan><tspan y="0">購入</tspan><tspan y="0">した</tspan><tspan y="0">男性（210名）/ </tspan><tspan y="0">マイナビ</tspan><tspan y="0">調</tspan><tspan y="0">べ</tspan></text>
+    <text id="婚約指輪購入時のお悩みや不安に関するアンケート" transform="translate(720 1132)" fill="#235aac" font-size="16" font-family="NotoSansCJKjp-Light, Noto Sans CJK JP" font-weight="300" letter-spacing="0.05em"><tspan x="-192" y="0">婚約指輪購入時</tspan><tspan y="0">のお</tspan><tspan y="0">悩</tspan><tspan y="0">みや</tspan><tspan y="0">不安</tspan><tspan y="0">に</tspan><tspan y="0">関</tspan><tspan y="0">するアンケート</tspan></text>
+  </g>
+</svg>

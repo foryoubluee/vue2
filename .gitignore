@@ -4,4 +4,4 @@ dist
 dist-ssr
 *.local
 *.lock
-/src/assets/*
+# /src/assets/*
