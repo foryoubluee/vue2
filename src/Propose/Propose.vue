@@ -61,7 +61,6 @@
             </div>
             <ToList />
           </div>
-
           <!-- Proposal Ring Desktop View -->
           <div v-else class="w-full proposal-ring bg-white px-[20px] py-[50px] grid place-content-center">
             <div class="flex justify-between items-center">
@@ -104,152 +103,155 @@
         <br />
         <!-- One Diamond Section -->
         <!-- One Diamond Mobile View -->
-        <div
-          v-if="isMobile()"
-          class="proposal-ring bg-white px-[20px] py-[37px] flex flex-col items-center [&>h1]:text-3xl [&>h1]:font-medium"
-        >
-          <h1 class="font-serif mb-6"><i>One Diamond</i></h1>
-          <div class="mb-8 text-center space-y-2">
-            <p>ダイヤモンドでプロポーズ</p>
-            <p>プロポーズ後に婚約指輪にセッティング</p>
-          </div>
-          <img v-if="isMobile()" src="../assets/img_onediamond_sp/img_onediamond_sp.png" alt="proposal ring" />
-          <img v-else src="../assets/img_onediamond_sp/img_onediamond_sp@2x.png" alt="proposal ring" />
-          <div class="px-4 space-y-[14px] mt-8">
-            <div class="[&>span>i]:font-serif [&>span>p]:font-light [&>span>i]:font-medium [&>span>i]:text-3xl">
-              <span class="flex space-x-4 items-start">
-                <i>1</i>
-                <p>店頭にてダイヤモンドをお選びください</p>
-              </span>
+        <div class="w-full max-w-[1210px] flex justify-center">
+          <div v-if="isMobile()" class="bg-white px-[20px] py-[37px] flex flex-col items-center [&>h1]:text-3xl [&>h1]:font-medium">
+            <h1 class="font-serif mb-6"><i>One Diamond</i></h1>
+            <div class="mb-8 text-center space-y-2">
+              <p>ダイヤモンドでプロポーズ</p>
+              <p>プロポーズ後に婚約指輪にセッティング</p>
             </div>
-            <div class="[&>span>i]:font-serif [&>span>p]:font-light [&>span>i]:font-medium [&>span>i]:text-3xl">
-              <span class="flex space-x-4 items-start">
-                <i>2</i>
-                <p>ご成約いただいたダイヤモンドでプロポーズ</p>
-              </span>
+            <img v-if="isMobile()" src="../assets/img_onediamond_sp/img_onediamond_sp.png" alt="proposal ring" />
+            <img v-else src="../assets/img_onediamond_sp/img_onediamond_sp@2x.png" alt="proposal ring" />
+            <div class="px-4 space-y-[14px] mt-8">
+              <div class="[&>span>i]:font-serif [&>span>p]:font-light [&>span>i]:font-medium [&>span>i]:text-3xl">
+                <span class="flex space-x-4 items-start">
+                  <i>1</i>
+                  <p>店頭にてダイヤモンドをお選びください</p>
+                </span>
+              </div>
+              <div class="[&>span>i]:font-serif [&>span>p]:font-light [&>span>i]:font-medium [&>span>i]:text-3xl">
+                <span class="flex space-x-4 items-start">
+                  <i>2</i>
+                  <p>ご成約いただいたダイヤモンドでプロポーズ</p>
+                </span>
+              </div>
+              <div class="[&>span>i]:font-serif [&>span>p]:font-light [&>span>i]:font-medium [&>span>i]:text-3xl">
+                <span class="flex space-x-4 items-start">
+                  <i>3</i>
+                  <p>後日、ご希望のサイズやデザインの婚約指輪に仕上げていきます</p>
+                </span>
+              </div>
             </div>
-            <div class="[&>span>i]:font-serif [&>span>p]:font-light [&>span>i]:font-medium [&>span>i]:text-3xl">
-              <span class="flex space-x-4 items-start">
-                <i>3</i>
-                <p>後日、ご希望のサイズやデザインの婚約指輪に仕上げていきます</p>
+            <div id="opacity-gradient" class="text-[#002257] font-yumincho mt-8 h-[310px] [&>span>h1]:text-xl w-full">
+              <span class="text-center space-y-1 [&>h2]:text-l">
+                <h1>Diamond Quality</h1>
+                <h2>ダイヤモンドの4C</h2>
               </span>
-            </div>
-          </div>
-          <div id="opacity-gradient" class="text-[#002257] font-yumincho mt-8 h-[310px] [&>span>h1]:text-xl w-full">
-            <span class="text-center space-y-1 [&>h2]:text-l">
-              <h1>Diamond Quality</h1>
-              <h2>ダイヤモンドの4C</h2>
-            </span>
-            <div class="p-[10px] mt-[10px] border border-1 border-b-0 border-[#D8DFE5] w-full">
-              <div class="flex space-x-6">
-                <div class="flex flex-col justify-between font-JP w-full">
-                  <span class="space-y-1">
-                    <h1 class="font-semibold font-sans">CARAT</h1>
-                    <p>重さ</p>
-                  </span>
-                  <div class="w-full flex flex-col w-[84px] text-[12px]">
-                    <div class="flex items-center space-x-2 mb-2">
-                      <div class="border border-1 border-[#D8DFE5] bg-[#F5F8FF] w-[50px] h-5"></div>
-                      <p class="text-lg">=</p>
+              <div class="p-[10px] mt-[10px] border border-1 border-b-0 border-[#D8DFE5] w-full">
+                <div class="flex space-x-6">
+                  <div class="flex flex-col justify-between font-JP w-full">
+                    <span class="space-y-1">
+                      <h1 class="font-semibold font-sans">CARAT</h1>
+                      <p>重さ</p>
+                    </span>
+                    <div class="w-full flex flex-col w-[84px] text-[12px]">
+                      <div class="flex items-center space-x-2 mb-2">
+                        <div class="border border-1 border-[#D8DFE5] bg-[#F5F8FF] w-[50px] h-5"></div>
+                        <p class="text-lg">=</p>
+                      </div>
+                      <span>
+                        <p>4°Cブライダル 専門店取り扱い</p>
+                      </span>
                     </div>
-                    <span>
-                      <p>4°Cブライダル 専門店取り扱い</p>
+                  </div>
+                  <p class="text-sm">
+                    宝石の重さの単位で、1カラットは0.2グラム。カラット数が大きい程、希少価値は高まりますが、大きさだけではなく総合的な品質評価によりダイヤモンドの価格が決まります。４℃ブライダル専門店では、一部の店舗を除く全ての店舗で、下記のカラットをお取り扱いしています。
+                  </p>
+                </div>
+              </div>
+              <!-- No 'Opacity gradient' image assets on adobeXd but Required in the UI -->
+            </div>
+            <button
+              class="flex space-x-1 items-center z-10 border border-1 border-[#879AB7] text-[#002257] font-bold px-10 py-3 rounded-sm"
+            >
+              <img src="../assets/arrow.png" alt="arrow icon" width="30px" class="rotate-180" />
+              <p>ダイヤモンドの4Cをみる</p>
+            </button>
+            <div class="w-full mt-8 space-y-[20px]">
+              <img class="w-full" src="../assets/bn_diamond_sp/bn_diamond_sp@2x.png" alt="diamond" />
+              <img class="w-full" src="../assets/bn_idealcut_sp/bn_idealcut_sp@2x.png" alt="diamond" />
+            </div>
+            <ToList />
+          </div>
+          <!-- One Diamond Desktop View -->
+          <div v-else class="proposal-ring bg-white px-[20px] py-[60px] flex flex-col items-center max-w-[1210px]">
+            <div class="w-full flex justify-between items-center max-width-[900px]">
+              <div class="flex flex-col items-center w-full">
+                <div class="flex flex-col items-center [&>h1]:text-4xl [&>h1]:font-medium">
+                  <h1 class="font-serif mb-4"><i>One Diamond</i></h1>
+                  <div class="mb-8 text-center space-y-2">
+                    <p>ダイヤモンドでプロポーズ</p>
+                    <p>プロポーズ後に婚約指輪にセッティング</p>
+                  </div>
+                </div>
+                <div class="px-4">
+                  <div class="[&>span>i]:font-serif [&>span>p]:font-light [&>span>i]:font-medium [&>span>i]:text-3xl">
+                    <span class="flex space-x-4 items-start">
+                      <i>1</i>
+                      <p>店頭にてダイヤモンドをお選びください</p>
+                    </span>
+                  </div>
+                  <div class="[&>span>i]:font-serif [&>span>p]:font-light [&>span>i]:font-medium [&>span>i]:text-3xl">
+                    <span class="flex space-x-4 items-start">
+                      <i>2</i>
+                      <p>ご成約いただいたダイヤモンドでプロポーズ</p>
+                    </span>
+                  </div>
+                  <div class="[&>span>i]:font-serif [&>span>p]:font-light [&>span>i]:font-medium [&>span>i]:text-3xl">
+                    <span class="flex space-x-4 items-start">
+                      <i>3</i>
+                      <p>後日、ご希望のサイズやデザインの婚約指輪に仕上げていきます</p>
                     </span>
                   </div>
                 </div>
-                <p class="text-sm">
-                  宝石の重さの単位で、1カラットは0.2グラム。カラット数が大きい程、希少価値は高まりますが、大きさだけではなく総合的な品質評価によりダイヤモンドの価格が決まります。４℃ブライダル専門店では、一部の店舗を除く全ての店舗で、下記のカラットをお取り扱いしています。
-                </p>
               </div>
+              <img src="../assets/img_onediamond.png" alt="proposal ring" />
             </div>
-            <!-- No 'Opacity gradient' image assets on adobeXd but Required in the UI -->
-          </div>
-          <button class="flex space-x-1 items-center z-10 border border-1 border-[#879AB7] text-[#002257] font-bold px-10 py-3 rounded-sm">
-            <img src="../assets/arrow.png" alt="arrow icon" width="30px" class="rotate-180" />
-            <p>ダイヤモンドの4Cをみる</p>
-          </button>
-          <div class="w-full mt-8 space-y-[20px]">
-            <img class="w-full" src="../assets/bn_diamond_sp/bn_diamond_sp@2x.png" alt="diamond" />
-            <img class="w-full" src="../assets/bn_idealcut_sp/bn_idealcut_sp@2x.png" alt="diamond" />
-          </div>
-          <ToList />
-        </div>
-        <!-- One Diamond Desktop View -->
-        <div v-else class="proposal-ring bg-white px-[20px] py-[60px] flex flex-col items-center max-w-[1210px]">
-          <div class="w-full flex justify-between items-center max-width-[900px]">
-            <div class="flex flex-col items-center w-full">
-              <div class="flex flex-col items-center [&>h1]:text-4xl [&>h1]:font-medium">
-                <h1 class="font-serif mb-4"><i>One Diamond</i></h1>
-                <div class="mb-8 text-center space-y-2">
-                  <p>ダイヤモンドでプロポーズ</p>
-                  <p>プロポーズ後に婚約指輪にセッティング</p>
-                </div>
-              </div>
-              <div class="px-4">
-                <div class="[&>span>i]:font-serif [&>span>p]:font-light [&>span>i]:font-medium [&>span>i]:text-3xl">
-                  <span class="flex space-x-4 items-start">
-                    <i>1</i>
-                    <p>店頭にてダイヤモンドをお選びください</p>
-                  </span>
-                </div>
-                <div class="[&>span>i]:font-serif [&>span>p]:font-light [&>span>i]:font-medium [&>span>i]:text-3xl">
-                  <span class="flex space-x-4 items-start">
-                    <i>2</i>
-                    <p>ご成約いただいたダイヤモンドでプロポーズ</p>
-                  </span>
-                </div>
-                <div class="[&>span>i]:font-serif [&>span>p]:font-light [&>span>i]:font-medium [&>span>i]:text-3xl">
-                  <span class="flex space-x-4 items-start">
-                    <i>3</i>
-                    <p>後日、ご希望のサイズやデザインの婚約指輪に仕上げていきます</p>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <img src="../assets/img_onediamond.png" alt="proposal ring" />
-          </div>
-          <br />
-          <div id="opacity-gradient" class="text-[#002257] font-yumincho mt-8 h-[310px] [&>span>h1]:text-xl w-full">
-            <span class="text-center">
-              <h1>Diamond Quality ダイヤモンドの4C</h1>
-            </span>
             <br />
-            <div class="mt-[10px] border border-1 border-b-0 border-[#D8DFE5] w-full font-yumincho">
-              <div class="flex">
-                <div
-                  class="flex px-[25px] py-[20px] flex-1 flex-col justify-between font-JP w-full border border-y-0 border-l-0 border-r-1"
-                >
-                  <span class="space-y-1">
-                    <h1 class="font-semibold font-yumincho">CARAT</h1>
-                    <p>重さ</p>
-                  </span>
-                  <br /><br />
-                  <div class="w-full flex flex-col w-[84px] text-[12px]">
-                    <div class="flex items-center space-x-2 mb-2">
-                      <div class="border border-1 border-[#D8DFE5] bg-[#F5F8FF] w-[50px] h-5"></div>
-                      <p class="text-lg">=</p>
-                    </div>
-                    <span>
-                      <p>4°Cブライダル 専門店取り扱い</p>
+            <div id="opacity-gradient" class="text-[#002257] font-yumincho mt-8 h-[310px] [&>span>h1]:text-xl w-full">
+              <span class="text-center">
+                <h1>Diamond Quality ダイヤモンドの4C</h1>
+              </span>
+              <br />
+              <div class="mt-[10px] border border-1 border-b-0 border-[#D8DFE5] w-full font-yumincho">
+                <div class="flex">
+                  <div
+                    class="flex px-[25px] py-[20px] flex-1 flex-col justify-between font-JP w-full border border-y-0 border-l-0 border-r-1"
+                  >
+                    <span class="space-y-1">
+                      <h1 class="font-semibold font-yumincho">CARAT</h1>
+                      <p>重さ</p>
                     </span>
+                    <br /><br />
+                    <div class="w-full flex flex-col w-[84px] text-[12px]">
+                      <div class="flex items-center space-x-2 mb-2">
+                        <div class="border border-1 border-[#D8DFE5] bg-[#F5F8FF] w-[50px] h-5"></div>
+                        <p class="text-lg">=</p>
+                      </div>
+                      <span>
+                        <p>4°Cブライダル 専門店取り扱い</p>
+                      </span>
+                    </div>
                   </div>
+                  <p class="text-base p-[20px]">
+                    宝石の重さの単位で、1カラットは0.2グラム。カラット数が大きい程、希少価値は高まりますが、大きさだけではなく総合的な品質評価によりダイヤモンドの価格が決まります。４℃ブライダル専門店では、一部の店舗を除く全ての店舗で、下記のカラットをお取り扱いしています。
+                  </p>
                 </div>
-                <p class="text-base p-[20px]">
-                  宝石の重さの単位で、1カラットは0.2グラム。カラット数が大きい程、希少価値は高まりますが、大きさだけではなく総合的な品質評価によりダイヤモンドの価格が決まります。４℃ブライダル専門店では、一部の店舗を除く全ての店舗で、下記のカラットをお取り扱いしています。
-                </p>
               </div>
+              <!-- No 'Opacity gradient' image assets on adobeXd but Required in the UI -->
             </div>
-            <!-- No 'Opacity gradient' image assets on adobeXd but Required in the UI -->
+            <button
+              class="flex space-x-1 items-center z-10 border border-1 border-[#879AB7] text-[#002257] font-bold px-10 py-3 rounded-sm"
+            >
+              <img src="../assets/arrow.png" alt="arrow icon" width="30px" class="rotate-180" />
+              <p>ダイヤモンドの4Cをみる</p>
+            </button>
+            <div class="w-full px-20 mt-8 grid gap-8 grid-cols-2 place-content-center">
+              <img class="w-fit" src="../assets/bn_diamond_sp/bn_diamond_sp@2x.png" alt="diamond" />
+              <img class="w-fit" src="../assets/bn_idealcut_sp/bn_idealcut_sp@2x.png" alt="diamond" />
+            </div>
+            <ToList />
           </div>
-          <button class="flex space-x-1 items-center z-10 border border-1 border-[#879AB7] text-[#002257] font-bold px-10 py-3 rounded-sm">
-            <img src="../assets/arrow.png" alt="arrow icon" width="30px" class="rotate-180" />
-            <p>ダイヤモンドの4Cをみる</p>
-          </button>
-          <div class="w-full px-20 mt-8 grid gap-8 grid-cols-2 place-content-center">
-            <img class="w-fit" src="../assets/bn_diamond_sp/bn_diamond_sp@2x.png" alt="diamond" />
-            <img class="w-fit" src="../assets/bn_idealcut_sp/bn_idealcut_sp@2x.png" alt="diamond" />
-          </div>
-          <ToList />
         </div>
         <!-- お急ぎの方へ Section -->
         <!-- お急ぎの方へ Mobile View -->
@@ -513,30 +515,15 @@
         <section class="w-full mt-16 px-[20px] pb-[80px] flex flex-col items-center font-yumincho max-w-[1210px]">
           <h1 class="font-semibold text-[20.4px] mb-6">プロポーズの前準備・リング購入の流れ</h1>
           <div class="w-full flex space-x-7">
-            <!-- <Flow
+            <Flow
               v-for="data in flowData"
+              :id="data.id"
               :key="data.id"
               :image="data.image"
               :paragraph="data.paragraph"
               :long-paragraph="data.longParagraph"
-            /> -->
-            <div v-for="data in flowData" class="w-full flex flex-col items-center">
-              <img :src="data.image" alt="propose flow" />
-              <h1 class="w-full text-center font-serif text-5xl">
-                <i>{{ data.id }}</i>
-              </h1>
-              <div class="text-center font-JP space-y-5 mt-6 mb-7">
-                <span v-for="p in data.paragraph" class="text-lg font-semibold">
-                  <p>{{ p }}</p>
-                </span>
-                <p class="font-light">
-                  {{ data.longParagraph }}
-                </p>
-              </div>
-              <ListButton />
-            </div>
+            />
           </div>
-
           <span class="w-[70px] h-[1px] bg-[#DDDDDD] my-16"></span>
           <div
             class="w-full flex flex-col items-center lg:justify-center lg:flex-row lg:w-[1266px] space-y-6 text-sm lg:space-y-0 lg:space-x-5"
@@ -586,28 +573,28 @@ export default {
           image: '/src/assets/bridal/img_propose_002@2x.png',
           paragraph: ['お相手の方の好みに合わせて', '婚約指輪のデザインを選ぶ'],
           longParagraph:
-            '婚約指輪一覧のぺージにて様々なデザインの婚約指輪をご用意しております。素材やダイヤモンドの大きさなど、お相手の方の好みに合わせてお選びください。'
+            '婚約指輪一覧のぺージにて様々なデザインの婚約指輪をご用意しております。素材やダイヤモンドの大きさなど、お相手の方の好みに合わせてお選びください。                                                 '
         },
         {
           id: 2,
-          image: '/src/assets/bridal/img_propose_002@2x.png',
-          paragraph: ['お相手の方の好みに合わせて', '婚約指輪のデザインを選ぶ'],
+          image: '/src/assets/img_bridaladvise_sp/img_bridaladvise_sp@2x.png',
+          paragraph: ['お近くのブライダル専門店へ', '来店予約をする'],
           longParagraph:
-            '婚約指輪一覧のぺージにて様々なデザインの婚約指輪をご用意しております。素材やダイヤモンドの大きさなど、お相手の方の好みに合わせてお選びください。'
+            'ご来店の際には事前にご予約をいただくことで お待たせせずにゆっくりとお選びいただけます。WEB予約、LINE予約、お電話でのご予約方法がございます。ご希望の方法にてお近くの４℃ブライダル専門店へご予約ください。'
         },
         {
           id: 3,
-          image: '/src/assets/bridal/img_propose_002@2x.png',
-          paragraph: ['お相手の方の好みに合わせて', '婚約指輪のデザインを選ぶ'],
+          image: '/src/assets/img_propose_003@2x.png',
+          paragraph: ['ブライダルアドバイザーが大切な', 'リング選びをお手伝いいたします。'],
           longParagraph:
-            '婚約指輪一覧のぺージにて様々なデザインの婚約指輪をご用意しております。素材やダイヤモンドの大きさなど、お相手の方の好みに合わせてお選びください。'
+            'ブライダル専門店では、厳選されたダイヤモンドルース（裸石）を多数ご用意し、豊富な知識を持つブライダルアドバイザーが理想の指輪選びをお手伝いいたします。プロポーズや指輪に関するご相談もお気軽におたずねください。'
         },
         {
           id: 4,
-          image: '/src/assets/bridal/img_propose_002@2x.png',
-          paragraph: ['お相手の方の好みに合わせて', '婚約指輪のデザインを選ぶ'],
+          image: '/src/assets/img_propose_005@2x.png',
+          paragraph: ['出来上がった婚約指輪を受け取り', '思い出に残るプロポーズへ'],
           longParagraph:
-            '婚約指輪一覧のぺージにて様々なデザインの婚約指輪をご用意しております。素材やダイヤモンドの大きさなど、お相手の方の好みに合わせてお選びください。'
+            '婚約指輪が完成しましたら、ショップからご連絡いたします。万が一リングのサイズが合わなかった場合は、0.5ミリ単位でサイズのお直しを承りますのでご安心ください。'
         }
       ]
     }
