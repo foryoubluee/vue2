@@ -466,11 +466,11 @@
             navigationPrevLabel="◀︎"
           >
             <Slide>
-              <img class="w-full" src="../assets/BRIDAL-212プロポーズLP2/img_propose_002@2x.png" alt="ring" />
+              <img class="w-full" src="../assets/bridal/img_propose_002@2x.png" alt="ring" />
               <!-- <h1 class="w-full text-center absolute bottom-0 translate-y-5 z-20 font-serif text-4xl font-medium"><i>1</i></h1> -->
             </Slide>
             <Slide>
-              <img class="w-full" src="../assets/BRIDAL-212プロポーズLP2/bn_idealcut@2x.png" alt="ring" />
+              <img class="w-full" src="../assets/bridal/bn_idealcut@2x.png" alt="ring" />
               <!-- <h1 class="w-full text-center absolute bottom-0 translate-y-5 z-20 font-serif text-4xl font-medium"><i>2</i></h1> -->
             </Slide>
           </Carousel>
@@ -513,13 +513,28 @@
         <section class="w-full mt-16 px-[20px] pb-[80px] flex flex-col items-center font-yumincho max-w-[1210px]">
           <h1 class="font-semibold text-[20.4px] mb-6">プロポーズの前準備・リング購入の流れ</h1>
           <div class="w-full flex space-x-7">
-            <Flow
+            <!-- <Flow
               v-for="data in flowData"
               :key="data.id"
               :image="data.image"
               :paragraph="data.paragraph"
               :long-paragraph="data.longParagraph"
-            />
+            /> -->
+            <div v-for="data in flowData" class="w-full flex flex-col items-center">
+              <img :src="data.image" alt="propose flow" />
+              <h1 class="w-full text-center font-serif text-5xl">
+                <i>{{ data.id }}</i>
+              </h1>
+              <div class="text-center font-JP space-y-5 mt-6 mb-7">
+                <span v-for="p in data.paragraph" class="text-lg font-semibold">
+                  <p>{{ p }}</p>
+                </span>
+                <p class="font-light">
+                  {{ data.longParagraph }}
+                </p>
+              </div>
+              <ListButton />
+            </div>
           </div>
 
           <span class="w-[70px] h-[1px] bg-[#DDDDDD] my-16"></span>
@@ -568,28 +583,28 @@ export default {
       flowData: [
         {
           id: 1,
-          image: '../assets/BRIDAL-212プロポーズLP2/img_propose_002@2x.png',
+          image: '/src/assets/bridal/img_propose_002@2x.png',
           paragraph: ['お相手の方の好みに合わせて', '婚約指輪のデザインを選ぶ'],
           longParagraph:
             '婚約指輪一覧のぺージにて様々なデザインの婚約指輪をご用意しております。素材やダイヤモンドの大きさなど、お相手の方の好みに合わせてお選びください。'
         },
         {
           id: 2,
-          image: '../assets/BRIDAL-212プロポーズLP2/img_propose_002@2x.png',
+          image: '/src/assets/bridal/img_propose_002@2x.png',
           paragraph: ['お相手の方の好みに合わせて', '婚約指輪のデザインを選ぶ'],
           longParagraph:
             '婚約指輪一覧のぺージにて様々なデザインの婚約指輪をご用意しております。素材やダイヤモンドの大きさなど、お相手の方の好みに合わせてお選びください。'
         },
         {
           id: 3,
-          image: '../assets/BRIDAL-212プロポーズLP2/img_propose_002@2x.png',
+          image: '/src/assets/bridal/img_propose_002@2x.png',
           paragraph: ['お相手の方の好みに合わせて', '婚約指輪のデザインを選ぶ'],
           longParagraph:
             '婚約指輪一覧のぺージにて様々なデザインの婚約指輪をご用意しております。素材やダイヤモンドの大きさなど、お相手の方の好みに合わせてお選びください。'
         },
         {
           id: 4,
-          image: '../assets/BRIDAL-212プロポーズLP2/img_propose_002@2x.png',
+          image: '/src/assets/bridal/img_propose_002@2x.png',
           paragraph: ['お相手の方の好みに合わせて', '婚約指輪のデザインを選ぶ'],
           longParagraph:
             '婚約指輪一覧のぺージにて様々なデザインの婚約指輪をご用意しております。素材やダイヤモンドの大きさなど、お相手の方の好みに合わせてお選びください。'
